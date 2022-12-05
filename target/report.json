@@ -1,0 +1,198 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5026331561,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.driverSetup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "get euro to canadian dollar conversion rate and comapre",
+        "description": "",
+        "id": "check-xe-currency-app;get-euro-to-canadian-dollar-conversion-rate-and-comapre;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 182981747,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 114027778,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the webpage and check title",
+            "match": {
+              "location": "Stepdefinition.open_the_webpage_and_check_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2631219,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The title should contain \"Xe Currency Converter - Live Exchange Rates Today\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xe Currency Converter - Live Exchange Rates Today",
+                  "offset": 26
+                }
+              ],
+              "location": "Stepdefinition.the_title_should_contain(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5792574982,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "set \"EUR\" value   and \"CAD\" value in convert page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EUR",
+                  "offset": 5
+                },
+                {
+                  "val": "CAD",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefinition.set_value_and_value_in_convert_page(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 276147342,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click convert button",
+            "match": {
+              "location": "Stepdefinition.click_convert_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5433037586,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "get convertion value",
+            "match": {
+              "location": "Stepdefinition.get_convertion_value()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49240589,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Go to chart page",
+            "match": {
+              "location": "Stepdefinition.go_to_chart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5500958009,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "set \"EUR\" value   and \"CAD\" value in chart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EUR",
+                  "offset": 5
+                },
+                {
+                  "val": "CAD",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefinition.set_value_and_value_in_chart_page(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 428510325,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click view chart button",
+            "match": {
+              "location": "Stepdefinition.click_view_chart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2025481867,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "get conversion value from chart page",
+            "match": {
+              "location": "Stepdefinition.get_conversion_value_from_chart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 357582,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "compare conversion value from convert and chart pages",
+            "match": {
+              "location": "Stepdefinition.compare_conversion_value_from_convert_and_chart_pages()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Check XE currency app",
+    "description": "",
+    "id": "check-xe-currency-app",
+    "keyword": "Feature",
+    "uri": "xeCurrency_pro/features.feature"
+  }
+]
