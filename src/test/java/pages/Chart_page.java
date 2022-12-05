@@ -41,8 +41,8 @@ public class Chart_page extends BaseClass {
 	WebElement submit;
 
 	public void selectfromAndTOCurrency(String fromCur, String toCur) throws InterruptedException {
-		Thread.sleep(5000);
 
+		Thread.sleep(1000);
 		from.click();
 		for (WebElement fromele : fromList) {
 
@@ -72,7 +72,7 @@ public class Chart_page extends BaseClass {
 	WebElement conversionrate1;
 
 	public double getConversionRate() throws InterruptedException {
-		Thread.sleep(1000);
+
 
 		Thread.sleep(1000);
 		String rate = conversionrate1.getText();

@@ -40,7 +40,7 @@ public class Convert_page extends BaseClass {
 
 
 	public void selectfromAndTOCurrency(String fromCur, String toCur) throws InterruptedException {
-		Thread.sleep(5000);
+
 
 		from.click();
 		for (WebElement fromele : fromList) {
@@ -70,7 +70,7 @@ public class Convert_page extends BaseClass {
 	public double getConversionRate() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.visibilityOf(conversionrate));
-		Thread.sleep(5000);
+		Thread.sleep(1000);
 		String rate = conversionrate.getText();
 		System.out.println(rate);
 		String rate1 = rate.replaceAll("[^0-9.]", "");

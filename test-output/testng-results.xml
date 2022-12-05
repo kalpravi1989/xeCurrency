@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15138" started-at="2022-12-05T08:26:55 CST" finished-at="2022-12-05T08:27:10 CST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:xeCurrency_pro.RunnerTest@7a3d45bd]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="15138" started-at="2022-12-05T08:26:55 CST" finished-at="2022-12-05T08:27:10 CST">
+      <class name="xeCurrency_pro.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:xeCurrency_pro.RunnerTest@7a3d45bd]" name="setUpClass" is-config="true" duration-ms="117" started-at="2022-12-05T08:26:55 CST" finished-at="2022-12-05T08:26:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:xeCurrency_pro.RunnerTest@7a3d45bd]" name="feature" duration-ms="14950" started-at="2022-12-05T08:26:55 CST" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-12-05T08:27:10 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Check XE currency app]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:xeCurrency_pro.RunnerTest@7a3d45bd]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2022-12-05T08:27:10 CST" finished-at="2022-12-05T08:27:10 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- xeCurrency_pro.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

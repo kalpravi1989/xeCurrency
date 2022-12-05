@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [xeCurrency_pro.RunnerTest]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="xeCurrency_pro.RunnerTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+</suite> <!-- Failed suite [xeCurrency_pro.RunnerTest] -->

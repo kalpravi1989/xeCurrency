@@ -1,7 +1,7 @@
 
 Feature: Check XE currency app
 
- 
+
   Scenario Outline: get euro to canadian dollar conversion rate and comapre
     Given open the webpage and check title 
     And The title should contain "Xe Currency Converter - Live Exchange Rates Today"
